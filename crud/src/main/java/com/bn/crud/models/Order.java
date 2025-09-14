@@ -55,21 +55,5 @@ public class Order {
     public void setLongitude(Double longitude) {
         this.longitude = longitude;
     }
-
-
-    Resumo das partes essenciais
-
-    @Entity → transforma a classe em uma entidade JPA que será persistida no banco.
-
-    @Table(name = "TBL_ORDER") → define o nome da tabela no banco.
-
-    @Id → identifica o atributo que será a chave primária.
-
-    @GeneratedValue(strategy = GenerationType.IDENTITY) → deixa o banco gerar o ID automaticamente (auto-incremento).
-
-    Atributos (address, latitude, longitude) → são as colunas da tabela.
-
-    Construtor vazio → obrigatório para o JPA conseguir instanciar a classe.
-
-    Getters e Setters → encapsulam os atributos, mantendo boas práticas de orientação a objetos.
+    
 }
